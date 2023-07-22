@@ -39,7 +39,7 @@ def send_email(email, subject, content):
     except Exception as e:
         print(e)
 
-model = load_model('final_model.h5')  # load model at the beginning
+model = load_model('.final_model.h5')  # load model at the beginning
 UPLOAD_FOLDER = 'uploaded_images'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
