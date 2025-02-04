@@ -46,11 +46,11 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # Dictionary mapping numerical indices to corresponding lesion types
 lesion_type_dict_idx = {
     0: 'Actinic keratoses',
-    1: 'Basal Cell Casrsinoma',
+    1: 'Melanoma',
     2: 'Benign keratosis-like lesions ',
     3: 'Dermatofibroma',
     4: 'Melanocytic nevi',
-    5: 'Melanoma',
+    5: 'Basal cell carcinoma',
     6: 'Vascular leisons'
 
     # Index: 2, Cell Type: Benign keratosis-like lesions 
